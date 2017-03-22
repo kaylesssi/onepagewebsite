@@ -1,22 +1,24 @@
 html {
   font-family: 'Comfortaa', cursive;
   text-align: center;
-  font-color: black;
+  color: grey;
 }
 h1 {
   font-family: 'Pacifico', cursive;
   text-align: center;
   padding-top: 5px;
   font-size: 45px;
+  color: black;
 }
 nav {
   position: fixed;
-  background-color: white;
+  background-color: lightgrey;
   bottom: 0;
   width: 100%;
   text-align: center;
   min-height: 50px;
   z-index: 1;
+  color: grey;
 }
 
 nav li {
@@ -78,6 +80,11 @@ section {
 img {
   width: 500px;
   height: auto;
+}
+
+footer {
+  border-top: 30px grey;
+
 }
 
 @media (max-width: 768px){
