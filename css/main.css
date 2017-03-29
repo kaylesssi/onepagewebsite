@@ -3,12 +3,22 @@ html {
   text-align: center;
   color: grey;
 }
+
 h1 {
   font-family: 'Pacifico', cursive;
   text-align: center;
   padding-top: 5px;
   font-size: 45px;
   color: black;
+}
+
+.home {
+  padding: 150px 50px 15px 50px;
+  animation: bounce 3s 1 alternate;
+}
+.backgroundimg {
+  opacity: 0.5;
+  background-size: auto;
 }
 nav {
   position: fixed;
@@ -19,6 +29,7 @@ nav {
   min-height: 50px;
   z-index: 1;
   color: grey;
+  border: 1px lightgrey;
 }
 
 nav li {
